@@ -1,1 +1,1 @@
-# landing-page
+Image used here is free for use under the Pixabay [Content License](https://pixabay.com/service/license-summary/)
