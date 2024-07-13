@@ -1,0 +1,131 @@
+body{
+background-color: grey;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+margin: 0;
+}
+
+.page{
+    margin: 0;
+}
+
+/* first page */
+.one{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    /* padding:  0 5%; */
+    align-items: center;
+    
+    
+
+}
+
+/* main content */
+.main-content{
+    width: 75%;
+    justify-content: center;
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    font:18px;
+    color: #E5E7EB;
+}
+
+.logo a{
+    font-size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+
+ 
+/* 
+img{
+    max-width: 300px;
+    object-fit: contain;
+     
+} */
+.hero-container{
+    padding: 100px 0;;
+    display:flex;
+    /* background-color: red; */
+    justify-content: space-evenly;
+     
+
+
+}
+
+.hero-text,.main-image{
+    flex: 1;
+}
+ 
+.main-image{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(139, 210, 210); */
+}
+img{
+    width:308px;
+    object-fit: fill;
+}
+.hero-text{
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+    
+}
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAf8;
+    /* display: flex;
+    flex-wrap: wrap; */
+    line-height: 48px;
+}
+.subtitle{
+    color: #F9FAf8;
+    font-size: 18px;
+
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-weight: bold;
+    align-self: flex-start;
+    
+}
+
+
+/* CTA */
+.cta-box{
+    margin: 90px 180px;
+    background-color:#3882f6;
+    padding: 40px 80px;
+    display:flex;
+    
+
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    color:#E5E7EB ;
+    background-color: #1F2937;
+    padding: 30px;
+}
